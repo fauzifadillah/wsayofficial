@@ -1,0 +1,2 @@
+[22-Apr-2020 11:42:32 UTC] The woocommerce_get_template function is deprecated since version 3.0. Replace with wc_get_template.
+[22-Apr-2020 11:44:05 UTC] The woocommerce_get_template function is deprecated since version 3.0. Replace with wc_get_template.

@@ -1,0 +1,10 @@
+2020-04-20T04:09:01+00:00 CRITICAL syntax error, unexpected 'logo' (T_STRING), expecting ',' or ';' in /home/u6516000/public_html/wp-content/themes/modern-store/header.php on line 79
+
+2020-04-20T04:26:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/u6516000/public_html/wp-content/themes/modern-store/header.php on line 85
+
+2020-04-20T04:26:42+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/u6516000/public_html/wp-content/themes/modern-store/header.php on line 85
+
+2020-04-20T04:26:46+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/u6516000/public_html/wp-content/themes/modern-store/header.php on line 85
+
+2020-04-20T04:41:18+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/u6516000/public_html/wp-content/themes/modern-store/header.php on line 85
+

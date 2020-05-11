@@ -1,0 +1,74 @@
+/*
+  @package kidzoo-lite
+*/
+/*
+  Mixins
+  ---------------------
+*/
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin animate ( $attr, $time ){
+  -webkit-transition: $attr $time ease;
+  -moz-transition: $attr $time ease;
+  -ms-transition: $attr $time ease;
+  -o-transition: $attr $time ease;
+  transition: $attr $time ease;
+}
+@mixin trans( $attr, $time ){
+  -webkit-transition: $attr $time ease !important;
+  -moz-transition: $attr $time ease !important;
+  -ms-transition: $attr $time ease !important;
+  -o-transition: $attr $time ease !important;
+  transition: $attr $time ease !important;
+}
+@mixin transform ( $val ){
+  -webkit-transform: $val;
+  -moz-transform: $val;
+  -ms-transform: $val;
+  -o-transform: $val;
+  transform: $val;
+}
+@mixin transformimp ( $val ){
+  -webkit-transform: $val !important;
+  -moz-transform: $val !important;
+  -ms-transform: $val !important;
+  -o-transform: $val !important;
+  transform: $val !important;
+}
+@mixin alpha-attribute($attribute, $color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  #{$attribute}: $solid-color;
+  #{$attribute}: $color;
+}
+@mixin fullwidth() {
+  width: 100%;
+  height: auto;
+}
+
+@mixin admin-sticky-fix( $offset: 0 ) {
+  $narrow-offset: 46px;
+  $wide-offset: 32px;
+  @if $offset != 0 and type-of($offset) == 'number' {
+    $narrow-offset: $narrow-offset + $offset;
+    $wide-offset: $wide-offset + $offset;
+  }
+  .admin-bar & {
+    top: $narrow-offset;
+    @media screen and (min-width: 783px) {
+      top: $wide-offset;
+    }
+  }
+}
+
+//Keyframes
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

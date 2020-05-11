@@ -1,0 +1,3 @@
+.woocommerce #calc_shipping_kota_field .select2-container, .woocommerce #billing_kota_field .select2-container, .woocommerce #shipping_kota_field .select2-container {
+    width: 100%!important;
+}

@@ -1,0 +1,13 @@
+/*
+	@package kidzoo-lite
+*/
+/*
+	Import
+	------------------------------------------------
+*/
+@import url( 'bootstrap.min.css' );
+@import url( 'kidzoo.css' );
+
+body{
+    text-indent: 10px;
+}

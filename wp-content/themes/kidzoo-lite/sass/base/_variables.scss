@@ -1,0 +1,73 @@
+/*
+  @package kidzoo-lite
+*/
+/*
+    Variables
+  ---------------------
+*/
+$body-font :  'Andika', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+$secondary-font :  'Amatic SC', cursive;
+
+$body-text-font-size: 16px;
+
+$brand-primary  : #ff715e;
+$brand-primary-dark  : #FC694C;
+$brand-secondary  : #77D0E4;
+$brand-secondary-dark  : #5399AD;
+$black          : #000000;
+$white          : #ffffff;
+
+// colors
+$orange         : #FC694C;
+$purple         : #936FA4;
+$yellow         : #FFC737;
+$light-yellow   : #FFCE5E;
+$pink           : #BA2F83;
+$violet         : #3E2D78;
+$blue           : #3D2D78;
+$red            : #C9534F;
+
+// Gray shades
+$darker-grey    : #1F1F1F;
+$dark-grey      : #333333;
+$grey           : #555555;
+$light-grey     : #797979;
+$gray-light     : #999999;
+$gray-lighter   : #cccccc;
+$gray-lightest   : #eeeeee;
+$lighter-grey   : #F1F1F1;
+
+//text colors
+$body-text-color: $grey;
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+// Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+// Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+// Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+// Note: Deprecated $screen-lg and $screen-lg-desktop as of v3.0.1
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+$screen-lg-desktop:          $screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);

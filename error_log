@@ -1,0 +1,6 @@
+[19-Apr-2020 09:38:12 UTC] add_to_cart_fragments is deprecated since version 3.0.0! Use woocommerce_add_to_cart_fragments instead.
+[19-Apr-2020 09:38:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Apr-2020 09:38:12 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Apr-2020 09:45:26 UTC] add_to_cart_fragments is deprecated since version 3.0.0! Use woocommerce_add_to_cart_fragments instead.
+[19-Apr-2020 09:45:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[19-Apr-2020 09:45:26 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.

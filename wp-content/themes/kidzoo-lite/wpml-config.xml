@@ -1,0 +1,256 @@
+<wpml-config>
+
+    <admin-texts>
+      <key name="kidzoo_theme_options">
+        <key name="profile_picture"/>
+        <key name="first_name"/>
+        <key name="last_name"/>
+        <key name="user_description"/>
+        <key name="user_phone"/>
+        <key name="user_email"/>
+        <key name="user_address"/>
+        <key name="twitter_handler"/>
+        <key name="facebook_handler"/>
+        <key name="gplus_handler"/>
+        <key name="post_formats"/>
+        <key name="custom_header"/>
+        <key name="custom_background"/>
+        <key name="kidzoo_css"/>
+      </key>
+      <key name="kidzoo_standard_colors">
+        <key name="kidzoo_primary_color" />
+        <key name="kidzoo_primary_dark_color" />
+        <key name="kidzoo_secondary_color" />
+        <key name="kidzoo_secondary_dark_color" />
+      </key>
+      <key name="kidzoo_header">
+        <key name="header_background_color" />
+        <key name="menu_link_color" />
+        <key name="menu_link_hover_color" />
+        <key name="menu_active_color" />
+        <key name="menu_active_background" />
+        <key name="submenu_background_color" />
+        <key name="submenu_link_color" />
+      </key>
+    </admin-texts>
+
+    <shortcodes>
+        <shortcode>
+          <tag>vc_text_separator</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_column_text</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_section</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_icon</tag>
+          <attributes>
+              <attribute>color</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_separator</tag>
+          <attributes>
+              <attribute>border_width</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_message</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_facebook</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_tweetmeme</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_googleplus</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_googleplus</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_pinterest</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_toggle</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_single_image</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_gallery</tag>
+          <attributes>
+              <attribute>title</attribute>
+              <attribute>images</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_images_carousel</tag>
+          <attributes>
+              <attribute>title</attribute>
+              <attribute>images</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_tta_tabs</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_tta_tour</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_tta_accordion</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_tta_pageable</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_custom_heading</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_btn</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_cta</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_widget_sidebar</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_posts_slider</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_video</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_gmaps</tag>
+          <attributes>
+              <attribute>link</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_raw_html</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_raw_js</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_flickr</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_progress_bar</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_pie</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_round_chart</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_line_chart</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_empty_space</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_basic_grid</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_media_grid</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_masonry_grid</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_masonry_media_grid</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_search</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_pages</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_tagcloud</tag>
+          <attributes>
+              <attribute>taxonomy</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_custommenu</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_text</tag>
+          <attributes>
+              <attribute>title</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_posts</tag>
+          <attributes>
+              <attribute>number</attribute>
+          </attributes>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_categories</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_archives</tag>
+        </shortcode>
+        <shortcode>
+          <tag>vc_wp_rss</tag>
+          <attributes>
+              <attribute>number</attribute>
+              <attribute>items</attribute>
+          </attributes>
+        </shortcode>
+    </shortcodes>
+
+</wpml-config>
